@@ -13,4 +13,5 @@
 
     <bean id="statisticsService" class="sk.stopangin.spring.l2.StatisticsServiceImpl"
           p:dataService-ref="dataService"></bean>
+
 </beans>

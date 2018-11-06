@@ -4,9 +4,9 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.*;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 
-@Configuration
-@ComponentScan
-@PropertySource("classpath:application.properties")
+//@Configuration
+//@ComponentScan
+//@PropertySource("classpath:application.properties")
 public class Runner {
 
     @Bean

@@ -9,7 +9,7 @@ import java.util.Set;
 @Service
 public class NewServiceForDifferentProject implements StatisticsService {
 
-    @Value("#{dateMeta}")
+    @Value("${dateMeta}")
     private String xxx;
 
     @Resource

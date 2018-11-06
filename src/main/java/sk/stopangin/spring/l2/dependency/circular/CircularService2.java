@@ -1,9 +1,9 @@
 package sk.stopangin.spring.l2.dependency.circular;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+        import org.springframework.beans.factory.annotation.Autowired;
+        import org.springframework.stereotype.Service;
 
-import javax.annotation.PostConstruct;
+        import javax.annotation.PostConstruct;
 
 @Service
 public class CircularService2 {

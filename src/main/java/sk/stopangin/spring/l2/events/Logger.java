@@ -5,8 +5,11 @@ import org.springframework.context.event.EventListener;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
+
 @Component
 public class Logger implements EventLogger {
+
     @EventListener
     public void onApplicationEvent(ContextRefreshedEvent cse) {
         System.out.println("Handling context refreshed event. ");
