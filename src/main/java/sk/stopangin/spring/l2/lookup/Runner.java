@@ -4,10 +4,9 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import sk.stopangin.spring.l2.config.Config;
 
-//@Configuration
-//@ComponentScan
+@Configuration
+@ComponentScan
 public class Runner {
     public static void main(String[] args) {
         ApplicationContext ac2 = new AnnotationConfigApplicationContext(Runner.class);

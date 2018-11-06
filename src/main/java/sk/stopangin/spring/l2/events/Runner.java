@@ -6,7 +6,6 @@ import org.springframework.scheduling.annotation.EnableAsync;
 import sk.stopangin.spring.l2.NewServiceForDifferentProject;
 import sk.stopangin.spring.l2.config.Config;
 @Configuration
-//@ImportResource("/spring/beans.xml")
 @ComponentScan
 @PropertySource("classpath:application.properties")
 @EnableAsync
