@@ -2,7 +2,6 @@ package sk.stopangin.spring.l2.beaninsidecomponent;
 
 import org.springframework.stereotype.Service;
 
-@Service
 public class Service3 {
     private Service2 service2;
 
@@ -11,8 +10,7 @@ public class Service3 {
     }
 
     public void doSomething() {
-        System.out.println("----");
-        service2.doSomething();
-        System.out.println("----");
+        System.out.println("service 2 instance in service2");
+        System.out.println(service2);
     }
 }

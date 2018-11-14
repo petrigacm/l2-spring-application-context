@@ -3,8 +3,7 @@ package sk.stopangin.spring.l2.events;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.*;
 import org.springframework.scheduling.annotation.EnableAsync;
-import sk.stopangin.spring.l2.NewServiceForDifferentProject;
-import sk.stopangin.spring.l2.config.Config;
+
 @Configuration
 @ComponentScan
 @PropertySource("classpath:application.properties")
