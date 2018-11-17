@@ -2,6 +2,7 @@ package sk.stopangin.spring.l2.events;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.*;
+import org.springframework.context.event.ApplicationEventMulticaster;
 import org.springframework.scheduling.annotation.EnableAsync;
 
 @Configuration
@@ -17,4 +18,6 @@ public class Runner {
         expenseDto.setDescription("some description");
         expenseService.createExpense(expenseDto);
     }
+
+
 }
