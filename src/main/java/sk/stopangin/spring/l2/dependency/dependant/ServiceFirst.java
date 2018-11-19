@@ -4,7 +4,7 @@ import org.springframework.context.annotation.DependsOn;
 import org.springframework.stereotype.Service;
 
 @Service
-@DependsOn("serviceSecond")
+@DependsOn("gajaka")
 public class ServiceFirst {
     public ServiceFirst() {
         System.out.println("serviceFirst created");
