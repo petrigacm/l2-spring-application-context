@@ -1,5 +1,5 @@
 package sk.stopangin.spring.l2.beans.morebeans;
 
-public interface Service {
+public interface SomeService {
     void doSomething();
 }

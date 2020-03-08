@@ -1,18 +1,13 @@
 package sk.stopangin.spring.l2.environmentabstraction.profilesandproperties;
 
-        import org.springframework.context.ApplicationContext;
-        import org.springframework.context.annotation.*;
-        import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.*;
+import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 
 @Configuration
 @ComponentScan
 @PropertySource("classpath:application.properties")
 public class Runner {
-
-    @Bean
-    public String property1(){
-        return "gajaka";
-    }
 
     @Bean
     public static PropertySourcesPlaceholderConfigurer propertySourcesPlaceholderConfigurer() {

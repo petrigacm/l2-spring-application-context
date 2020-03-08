@@ -5,17 +5,17 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
 @Component
-@Profile("TEST")
-public class H2DataSource implements DataSource {
+@Profile("PROD")
+public class OracleDataSource implements DataSource {
 
-    @Value("${h2.datasource.username:default-user}")
+    @Value("${oracle.datasource.username}")
     private String username;
 
-    @Value("${h2.datasource.password:default-pass}")
+    @Value("${oracle.datasource.password}")
     private String password;
 
     @Override
     public void init() {
-        System.out.println("Initializing H2 data source with username '" + username + "' and password '" + password + "'");
+        System.out.println("Initializing Oracle data source with username '" + username + "' and password '" + password + "'");
     }
 }

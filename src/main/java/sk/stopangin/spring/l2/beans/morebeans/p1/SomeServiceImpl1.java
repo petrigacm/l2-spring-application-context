@@ -1,9 +1,9 @@
 package sk.stopangin.spring.l2.beans.morebeans.p1;
 
-import sk.stopangin.spring.l2.beans.morebeans.Service;
+import sk.stopangin.spring.l2.beans.morebeans.SomeService;
 
 @org.springframework.stereotype.Service
-public class ServiceImpl1 implements Service {
+public class SomeServiceImpl1 implements SomeService {
     private String name = "some value";
 
     @Override

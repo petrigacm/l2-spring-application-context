@@ -9,7 +9,6 @@ import java.util.Optional;
 public class ServiceUsingMutlipleCaches {
     private static final String SERVICE_CACHE_KEY = "serviceKey";
 
-
     @Lookup
     public CacheProvider cacheProvider() {
         return null;
