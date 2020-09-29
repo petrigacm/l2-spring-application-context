@@ -1,4 +1,4 @@
-package sk.stopangin.spring.l2.morethanoneconfig;
+package sk.stopangin.spring.l2.beans.morethanoneconfig;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

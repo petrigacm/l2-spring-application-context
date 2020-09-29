@@ -1,4 +1,4 @@
-package sk.stopangin.spring.l2.environmentabstraction.profilesandproperties;
+package sk.stopangin.spring.l2.environment;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.*;

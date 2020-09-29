@@ -1,9 +1,7 @@
-package sk.stopangin.spring.l2.morethanoneconfig;
+package sk.stopangin.spring.l2.beans.morethanoneconfig;
 
 import org.springframework.context.annotation.*;
-import org.springframework.core.annotation.Order;
-import sk.stopangin.spring.l2.morethanoneconfig.config.Config2;
-import sk.stopangin.spring.l2.morethanoneconfig.p1.ServiceImpl1;
+import sk.stopangin.spring.l2.beans.morethanoneconfig.p1.ServiceImpl1;
 
 @Configuration
 //@ImportResource("/spring/beans2.xml")

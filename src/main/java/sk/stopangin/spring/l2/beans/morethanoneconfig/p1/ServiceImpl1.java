@@ -1,6 +1,6 @@
-package sk.stopangin.spring.l2.morethanoneconfig.p1;
+package sk.stopangin.spring.l2.beans.morethanoneconfig.p1;
 
-import sk.stopangin.spring.l2.morethanoneconfig.Service;
+import sk.stopangin.spring.l2.beans.morethanoneconfig.Service;
 
 import javax.annotation.PostConstruct;
 
