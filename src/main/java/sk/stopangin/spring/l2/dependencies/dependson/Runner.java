@@ -1,4 +1,4 @@
-package sk.stopangin.spring.l2.dependencies.dependant;
+package sk.stopangin.spring.l2.dependencies.dependson;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;

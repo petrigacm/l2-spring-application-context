@@ -22,6 +22,5 @@ public class CircularService2 {
 
     public void printHelloWorld() {
         System.out.println("Hello world from circular service 2");
-        circularService1.printHelloWorld();
     }
 }

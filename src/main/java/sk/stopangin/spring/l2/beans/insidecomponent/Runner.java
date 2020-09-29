@@ -1,4 +1,4 @@
-package sk.stopangin.spring.l2.beans.beaninsidecomponent;
+package sk.stopangin.spring.l2.beans.insidecomponent;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

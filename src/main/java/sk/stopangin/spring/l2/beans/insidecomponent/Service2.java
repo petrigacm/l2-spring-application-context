@@ -1,4 +1,4 @@
-package sk.stopangin.spring.l2.beans.beaninsidecomponent;
+package sk.stopangin.spring.l2.beans.insidecomponent;
 
 import javax.annotation.PostConstruct;
 

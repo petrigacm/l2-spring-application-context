@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 public class Runner {
 
     public static void main(String[] args) {
-        ApplicationContext applicationContext = new AnnotationConfigApplicationContext();
+        ApplicationContext applicationContext = new AnnotationConfigApplicationContext(Runner.class);
 
         SomeController someController = applicationContext.getBean(SomeController.class);
 
