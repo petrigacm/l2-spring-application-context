@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>sk.stopangin.spring</groupId>
-    <artifactId>l2-spring-basics</artifactId>
+    <artifactId>l2-spring-application-context</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
         <maven.compiler.target>1.8</maven.compiler.target>

@@ -1,4 +1,4 @@
-# L2
+# L2 Spring Application Context
 
 * Spring Framework Overview
 * Spring IoC Container
